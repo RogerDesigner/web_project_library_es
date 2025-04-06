@@ -133,14 +133,15 @@
 }
 
 .staff__cards {
+  max-width: 760px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  max-width: 760px;
-  margin: auto;
-  margin-top: 68px;
-  list-style-type: none;
   gap: 40px;
+  padding: 0;
+  justify-content: center;
+  margin: auto;
+  margin-top: 68px auto 0;
+  list-style-type: none;
 }
 /* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
@@ -174,7 +175,7 @@
 }
 
 .card__footer {
-  margin-top: auto;
+  margin-top: 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;

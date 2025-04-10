@@ -1,5 +1,4 @@
 .page {
-  /* Agrega las propiedades de la clase page aquí */
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -180,4 +179,142 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.events__content {
+  max-width: 580px;
+  flex-basis: 580px;
+  position: relative;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 580px;
+  z-index: 1;
+}
+
+.person {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.person_name_feynman {
+  position: absolute;
+  top: -30px;
+  left: 800px;
+  font-size: 15px;
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_burbidge {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_cannon {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_mitchell {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person_name_tarter {
+  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+}
+
+.person__image {
+  max-width: 90%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
 }

@@ -182,19 +182,18 @@
 }
 
 .events {
+  position: relative;
   padding: 100px 0 120px 80px;
-  display: flex;
   box-sizing: border-box;
+  display: flex;
   background-color: #f2f2f2;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
 }
 
 .events__content {
   max-width: 580px;
   flex-basis: 580px;
   position: relative;
+  z-index: 1;
 }
 
 .events__heading {
@@ -247,54 +246,64 @@
 }
 
 .events__cover {
-  flex-grow: 1;
+  flex-wrap: wrap;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative;
-}
-
-.events__image {
-  max-width: 100%;
-  height: auto;
+  gap: 40px;
+  padding: 100 0 0 0;
   position: absolute;
   top: 0;
-  left: 580px;
+  left: 10px;
   z-index: 1;
 }
 
+.events__image {
+  max-width: 1000px;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 580px;
+  z-index: 1;
+  padding: 100px 0 100 0;
+}
+
 .person {
-  position: absolute;
   z-index: 2;
   display: flex;
   align-items: center;
   flex-direction: column;
-  align-content: space-between;
   gap: 10px;
 }
 
 .person_name_feynman {
   position: absolute;
-  top: -30px;
-  left: 800px;
-  font-size: 15px;
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: -20px;
+  right: -380px;
 }
 
 .person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  top: 150px;
+  right: -600px;
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  bottom: 50px;
+  right: -500px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  bottom: 150px;
+  left: 780px;
 }
 
 .person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  top: 200px;
+  left: 800px;
 }
 
 .person__image {
@@ -302,15 +311,15 @@
 }
 
 .person__image_size_l {
-  width: 200px;
+  width: 160px;
 }
 
 .person__image_size_m {
-  width: 100px;
+  width: 120px;
 }
 
 .person__image_size_s {
-  width: 80px;
+  width: 100px;
 }
 
 .person__caption {

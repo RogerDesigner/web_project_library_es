@@ -251,7 +251,6 @@
   flex-basis: 780px;
   max-width: 780px;
   gap: 40px;
-  padding: 100 0 0 0;
   position: absolute;
   top: 0;
   left: 10px;
@@ -265,7 +264,6 @@
   top: 0;
   left: 580px;
   z-index: 1;
-  padding: 100px 0 100 0;
 }
 
 .person {

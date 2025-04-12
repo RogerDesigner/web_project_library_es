@@ -23,7 +23,6 @@
   display: flex;
   justify-content: space-between;
   margin: 8px;
-  /* Agrega las propiedades flex aquí */
 }
 
 .nav__logo {
@@ -43,7 +42,6 @@
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
-  /* Restablece los estilos predeterminados de list aquí */
 }
 
 .nav__link {
@@ -59,7 +57,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  /* Agrega las propiedades flex aquí */
 }
 
 .header__content > div {
@@ -142,7 +139,6 @@
   margin-top: 68px;
   list-style-type: none;
 }
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 
 .card {
   background-color: #fff;
@@ -183,7 +179,7 @@
 
 .events {
   position: relative;
-  padding: 100px 0 120px 80px;
+  padding: 100px 50px 120px 50px;
   box-sizing: border-box;
   display: flex;
   background-color: #f2f2f2;
@@ -258,7 +254,7 @@
 }
 
 .events__image {
-  max-width: 1000px;
+  max-width: 780px;
   height: auto;
   position: relative;
   top: 0;
@@ -276,32 +272,32 @@
 
 .person_name_feynman {
   position: absolute;
-  top: -20px;
-  right: -380px;
+  top: -10px;
+  right: -250px;
 }
 
 .person_name_burbidge {
   position: absolute;
-  top: 150px;
-  right: -600px;
+  top: 96px;
+  right: -440px;
 }
 
 .person_name_cannon {
   position: absolute;
-  bottom: 50px;
-  right: -500px;
+  bottom: 20px;
+  right: -350px;
 }
 
 .person_name_mitchell {
   position: absolute;
-  bottom: 150px;
-  left: 780px;
+  bottom: 100px;
+  right: -15px;
 }
 
 .person_name_tarter {
   position: absolute;
-  top: 200px;
-  left: 800px;
+  top: 100px;
+  left: 700px;
 }
 
 .person__image {
@@ -309,15 +305,15 @@
 }
 
 .person__image_size_l {
-  width: 160px;
-}
-
-.person__image_size_m {
   width: 120px;
 }
 
-.person__image_size_s {
+.person__image_size_m {
   width: 100px;
+}
+
+.person__image_size_s {
+  width: 60px;
 }
 
 .person__caption {

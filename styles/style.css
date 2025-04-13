@@ -179,9 +179,11 @@
 
 .events {
   position: relative;
-  padding: 100px 50px 120px 50px;
-  box-sizing: border-box;
+  padding: 100px 0 120px 80px;
   display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
   background-color: #f2f2f2;
 }
 
@@ -242,23 +244,23 @@
 }
 
 .events__cover {
-  flex-wrap: wrap;
+  flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
   gap: 40px;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 10px;
   z-index: 1;
 }
 
 .events__image {
-  max-width: 780px;
+  max-width: 100%;
   height: auto;
   position: relative;
   top: 0;
-  left: 580px;
+  left: 0;
   z-index: 1;
 }
 
@@ -272,32 +274,32 @@
 
 .person_name_feynman {
   position: absolute;
-  top: -10px;
-  right: -250px;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
   position: absolute;
   top: 96px;
-  right: -440px;
+  right: 125px;
 }
 
 .person_name_cannon {
   position: absolute;
-  bottom: 20px;
-  right: -350px;
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
   position: absolute;
-  bottom: 100px;
-  right: -15px;
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
   position: absolute;
-  top: 100px;
-  left: 700px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -305,7 +307,7 @@
 }
 
 .person__image_size_l {
-  width: 120px;
+  width: 140px;
 }
 
 .person__image_size_m {
@@ -313,7 +315,7 @@
 }
 
 .person__image_size_s {
-  width: 60px;
+  width: 80px;
 }
 
 .person__caption {
